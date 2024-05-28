@@ -21,9 +21,19 @@ body{
 
 .favorite li a{
     color: brown;
+    text-decoration: none;
+}
+
+.favorite li a:hover{    
+    text-decoration: underline;
 }
 
 .neighbor {
     background-color: aqua;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
