@@ -9,3 +9,21 @@ body{
     font-style: italic;
 }
 
+.list {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 500;   
+}
+
+.class li{
+    color: chocolate;
+}
+
+.favorite li a{
+    color: brown;
+}
+
+.neighbor {
+    background-color: aqua;
+}
+
