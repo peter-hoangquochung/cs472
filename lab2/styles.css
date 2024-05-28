@@ -37,3 +37,18 @@ p::first-letter {
     font-weight: bold;
 }
 
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+    width: fit-content;
+}
+
+dd {
+    margin: 0 0 10px 20px;
+}
