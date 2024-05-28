@@ -1,0 +1,84 @@
+body {
+    background-color: #FFFFFF;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+strong {
+    font-weight: bold;
+    color: #A4A400;
+}
+
+a {
+    color: #A4A400;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #A4A400;
+}
+
+.recipe-intro {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.recipe-intro img {
+    width: 300px;
+    height: auto;
+}
+
+.recipe-intro p {
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
+ul li span[title], ol li span[title] {
+    text-decoration: underline;
+    cursor: help;
+}
+
+ul li span[title]:hover::after, ol li span[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: #FFFFA8;
+    padding: 2px 5px;
+    border: 1px solid #A4A400;
+    border-radius: 3px;
+    z-index: 1000;
+}
