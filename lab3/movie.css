@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    background: url('./images/background.png');
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Styles */
+.banner {
+    background: url('./images/bannerbg.png') repeat-x;
+    height: 50px;
+    text-align: center;
+}
+
+.banner img {
+    vertical-align: bottom;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 0 #999999;
+}
+
+/* Content Styles */
+.content {
+    width: 800px;
+    margin: 0 auto;
+    border: 4px solid gray;
+    border-radius: 20px;  
+    justify-content: space-between;    
+}
+
+.content-flex {
+    display: flex;
+}
+
+/* Left Section Styles */
+.left-section {
+    width: 100%;
+}
+
+.rating {
+    background: url('./images/rbg.png') repeat-x;   
+    text-align: left;
+}
+
+.rating img {
+    vertical-align: bottom;
+}
+
+.rating span {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review {
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    width: 40%;
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.review img {
+    float: left;
+    margin-right: 5px;
+}
+
+.quote {
+    font-weight: bold;
+}
+
+.reviewer {
+    font-style: italic;
+    position: absolute;
+}
+
+.reviewer img {
+    float: left;
+    margin-right: 5px;
+}
+
+/* Overview Section Styles */
+.overview {
+    background-color: #A2B964;
+    width: 250px;
+    padding: 10px;
+}
+
+.overview dl dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Validators Styles */
+.validators {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
