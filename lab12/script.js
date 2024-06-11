@@ -14,8 +14,11 @@ $(function(){
             const circle = $("<div>", {
                 class: 'circle',
                 css: {
+                    position: 'absolute',
                     width: width,
                     height: width,
+                    top: Math.random() * 500 + "px",
+                    left: Math.random() * 500+ "px",
                     backgroundColor: randomColor,
                 }
             });
